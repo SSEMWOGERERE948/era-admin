@@ -1,0 +1,54 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #252d4a;
+  }
+  
+  .dashboard-card {
+    background-color: #1c233d;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .dashboard-title {
+    color: #fff;
+    margin-top: 0;
+  }
+  
+  .dashboard-section {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-section h3 {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+  }
+  
+  .button-link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .button-link:hover {
+    background-color: yellow;
+  }
+  
+  .back-button {
+    display: inline-block;
+    background-color: #ff4f4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .back-button:hover {
+    background-color: #e63f3f;
+  }
+  
